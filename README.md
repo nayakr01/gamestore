@@ -1,6 +1,6 @@
 # INTRODUCCIÓN
 
-He creado una API para simular una tienda de videojuegos de ordenador con distintos usuarios con diferentes roles. 
+He creado una API para simular una tienda de videojuegos de ordenador con distintos usuarios y diferentes roles. 
 
 Cada juego tiene los siguientes datos:
 - id, nombre, imagen, género, descripción, precio, ranking y descargas.
