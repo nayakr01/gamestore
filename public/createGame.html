@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>GameStore - Crear Juego</title>
+    <link rel="shortcut icon" href="/assets/images/favicon.png">
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-cyborg-gaming.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/login.css">
+
+    <script src="assets/js/design/sweetalert2.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/sweetalert2.css">
+
+    <!-- JS Naya -->
+    <script src="assets/js/createGame.js" defer></script>
+    <script src="assets/js/nav.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div id="formContentEdit">
+                <div class="fadeIn first">
+                    <img src="assets/images/favicon.png" alt="">
+                    <h2>Añadir un juego</h2>
+                    <br>
+                </div>
+
+                <form class="requires-validation" name="create_game">
+                    <div class="col-md-12">
+                        <label for="">Nombre </label>
+                        <input class="form-control" type="text" name="name" placeholder="Nombre del juego" required>
+                    </div>
+                    <br>
+                    <div class="col-md-12">
+                        <label for="">Imagen </label>
+                        <input class="form-control" type="text" name="image" placeholder="Link de la imagen" required>
+                    </div>
+
+                    <br>
+                    <div class="col-md-12">
+                        <label for="">Géneros </label>
+                        <input class="form-control" type="text" name="gender"
+                            placeholder="Separa los géneros con una coma" required>
+                    </div>
+
+                    <br>
+                    <div class="col-md-12">
+                        <label for="">Descripción </label>
+                        <input class="form-control" type="text" name="description" placeholder="Descripción del juego"
+                            required>
+                    </div>
+
+                    <div class="col-md-12">
+                        <label for="">Precio </label>
+                        <input class="form-control" type="number" name="price" step="0.1" required>
+                    </div>
+
+                    <br>
+                    <div class="col-md-12">
+                        <label for="">Ranking </label>
+                        <input class="form-control" type="number" name="ranking" step="0.1" required>
+                    </div>
+
+                    <br>
+                    <div class="col-md-12">
+                        <label for="">Descargas </label>
+                        <input class="form-control" type="number" name="downloads" required>
+                    </div>
+
+                    <div class="form-button mt-3">
+                        <div class="col-lg-12">
+                            <div class="main-button">
+                                <input type="submit" value="Añadir" onclick="createGame()">
+                            </div>
+                        </div>
+                </form>
+            </div>
+            <!-- Scripts -->
+            <!-- Bootstrap core JavaScript -->
+            <script src="assets/js/design/isotope.min.js"></script>
+            <script src="assets/js/design/owl-carousel.js"></script>
+            <script src="assets/js/design/custom.js"></script>
+</body>
+
+</html>

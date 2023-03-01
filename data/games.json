@@ -1,0 +1,203 @@
+[
+    {
+        "id": 1,
+        "name": "Minecraft",
+        "image": "https://s2.gaming-cdn.com/images/products/442/616x353/minecraft-java-y-bedrock-edition-pc-juego-cover.jpg?v=1674156218",
+        "gender": "Sandbox",
+        "description": "Minecraft para PC es el videojuego más vendido de todos los tiempos. Solo eso debería ser suficiente para convencerte. Pero veamos un poco más de información acerca de por qué deberías empezar a disfrutar de este juego ahora mismo. Se trata de un juego de tipo ‘sandbox’ en el que los jugadores deben minar, construir y fabricar su propio mundo ideal.",
+        "price": "23.49",
+        "ranking": "10",
+        "downloads": "33"
+    },
+    {
+        "id": 2,
+        "name": "Grand Theft Auto V",
+        "image": "https://s1.gaming-cdn.com/images/products/186/616x353/grand-theft-auto-v-pc-juego-rockstar-cover.jpg?v=1647095361",
+        "gender": "Acción, Aventura",
+        "description": "Grand Theft Auto V para PC es un juego de acción y aventuras, el quinto de la serie GTA. Como ya es tradición en los juegos de esta serie, se obtienen puntos mediante la comisión de delitos. El juego alterna entre la narrativa visual y la jugabilidad en tercera y en primera persona. El jugador toma el papel de tres criminales tratando de huir de una determinada agencia del gobierno y cometiendo asaltos. No se elige un solo personaje para jugar, la narrativa del juego salta de un personaje a otro.",
+        "price": "19",
+        "ranking": "10",
+        "downloads": "145"
+    },
+    {
+        "id": 3,
+        "name": "Hogwarts Legacy",
+        "image": "https://s2.gaming-cdn.com/images/products/7072/616x353/hogwarts-legacy-pc-juego-steam-europe-cover.jpg?v=1673455163",
+        "gender": "Acción, Aventura",
+        "description": "Hogwarts Legacy es un juego de rol inmersivo en mundo abierto que se inspira de los libros de la saga Harry Potter.",
+        "price": "60",
+        "ranking": "7",
+        "downloads": "30"
+    },
+    {
+        "id": 4,
+        "name": " Modern Warfare",
+        "image": "https://s2.gaming-cdn.com/images/products/61/616x353/call-of-duty-modern-warfare-3-pc-juego-steam-cover.jpg?v=1661177741",
+        "gender": "Acción",
+        "description": "Call of Duty: Modern Warfare 3 para PC es la tercera entrega de la serie Modern Warfare, y la octava de la franquicia Call Of Duty en general. Se trata de un shooter en primera persona, y, al igual que el resto de los juegos de la serie, se desarrolla en una variedad de escenarios y ubicaciones devastadas por la guerra alrededor de todo el mundo.",
+        "price": "40",
+        "ranking": "10",
+        "downloads": "50"
+    },
+    {
+        "id": 5,
+        "name": "NBA 2K23",
+        "image": "https://s1.gaming-cdn.com/images/products/12480/616x353/nba-2k23-pc-juego-steam-europe-cover.jpg?v=1663336320",
+        "gender": "Deporte",
+        "description": "NBA 2K23 para PC es la última entrega de la longeva serie de juegos de la NBA, protagonizada por estrellas del baloncesto de la vida real y sus respectivos campeonatos.",
+        "price": "60",
+        "ranking": "6",
+        "downloads": "10"
+    },
+    {
+        "id": 6,
+        "name": "FIFA 23",
+        "image": "https://s1.gaming-cdn.com/images/products/10545/616x353/fifa-23-pc-juego-origin-cover.jpg?v=1665157647",
+        "gender": "Deporte",
+        "description": "FIFA 23 para PC es el último de una inmensa línea de juegos basados en fútbol. Desde sus humildes comienzos en 1993 con el lanzamiento de FIFA International Soccer, esta franquicia de juegos se ha producido en más de 18 idiomas en 51 países, vendiendo más de 325 millones de copias, un récord impresionante para cualquier serie de videojuegos.",
+        "price": "70",
+        "ranking": "10",
+        "downloads": "10.3"
+    },
+    {
+        "id": 7,
+        "name": "Black Ops 4",
+        "image": "https://s3.gaming-cdn.com/images/products/2468/616x353/call-of-duty-black-ops-4-pc-juego-battle-net-europe-cover.jpg?v=1649845811",
+        "gender": "Acción, Aventura",
+        "description": "Call of Duty: Black Ops 4 (Europa) para PC es un shooter multijugador en primera persona, el quinto de la serie Black Ops que forma parte de los populares juegos de Call of Duty, de los cuales este es el décimo quinto lanzamiento.",
+        "price": "59.99",
+        "ranking": "7",
+        "downloads": "10"
+    },
+    {
+        "id": 8,
+        "name": "The Last of Us Part I",
+        "image": "https://s3.gaming-cdn.com/images/products/13298/616x353/the-last-of-us-part-i-pc-juego-steam-cover.jpg?v=1673886740",
+        "gender": "Acción, Aventura",
+        "description": "Disfruta de la emotiva historia y los inolvidables personajes de The Last of Us, ganador de más de 200 premios de Juego del Año.",
+        "price": "60",
+        "ranking": "10",
+        "downloads": "10"
+    },
+    {
+        "id": 9,
+        "name": "Rainbow Six Siege",
+        "image": "https://s2.gaming-cdn.com/images/products/406/616x353/tom-clancy-s-rainbow-six-siege-pc-juego-ubisoft-connect-europe-cover.jpg?v=1649421231",
+        "gender": "Acción",
+        "description": "Rainbow Six Siege para PC es un shooter táctico en línea. En este juego hay un fuerte énfasis en la destrucción del entorno y la cooperación entre jugadores.",
+        "price": "20",
+        "ranking": "9",
+        "downloads": "30"
+    },
+    {
+        "id": 10,
+        "name": "Far Cry 6",
+        "image": "https://s1.gaming-cdn.com/images/products/7080/616x353/far-cry-6-pc-juego-ubisoft-connect-europe-cover.jpg?v=1666101212",
+        "gender": "Acción, Aventura",
+        "description": "Far Cry 6 para PC está ambientado en la ficticia isla caribeña de Yara, un shooter en primera persona de mundo abierto (más o menos).",
+        "price": "60",
+        "ranking": "7",
+        "downloads": "50"
+    },
+    {
+        "id": 11,
+        "name": "Marvel's Spider-Man",
+        "image": "https://s1.gaming-cdn.com/images/products/11907/616x353/marvel-s-spider-man-remastered-pc-juego-steam-cover.jpg?v=1670938359",
+        "gender": "Acción, Aventura",
+        "description": "Marvel's Spider-Man Remastered para PC es una versión renovada del juego de acción y aventura de 2018. Con una jugabilidad en tercera persona, asumes el personaje del hombre araña, Spider-Man, lidiando con la vida personal de Peter Parker, así como luchando contra el villano superhumano Míster Negativo en su intento de apoderarse de los bajos fondos de Nueva York.",
+        "price": "60",
+        "ranking": "10",
+        "downloads": "60"
+    },
+    {
+        "id": 12,
+        "name": "Uncharted Legacy",
+        "image": "https://s1.gaming-cdn.com/images/products/8907/616x353/uncharted-legacy-of-thieves-collection-pc-juego-steam-europe-cover.jpg?v=1673341887",
+        "gender": "Acción, Aventura",
+        "description": "Uncharted Legacy of Thieves Collection - Europe para PC es una versión remasterizada de A Thief's End y The Lost Legacy (Uncharted 4 y un spin-off respectivamente) en la que puedes jugar como Nathan Drake o Chloe Fraser.",
+        "price": "50",
+        "ranking": "8",
+        "downloads": "20"
+    },
+    {
+        "id": 13,
+        "name": "Raft",
+        "image": "https://s3.gaming-cdn.com/images/products/2627/616x353/juego-steam-raft-cover.jpg?v=1614867626",
+        "gender": "Aventura",
+        "description": "¡Raft te sumerge a ti y a tus amigos en una épica aventura oceánica! ¡Solos o juntos, los jugadores luchan para sobrevivir en un peligroso viaje a través de un vasto mar! Recoge escombros, busca arrecifes y construye tu propia casa flotante, ¡pero ten cuidado con los tiburones devoradores de hombres!",
+        "price": "19.99",
+        "ranking": "10",
+        "downloads": "20"
+    },
+    {
+        "id": 14,
+        "name": "Assassin’s Creed",
+        "image": "https://s1.gaming-cdn.com/images/products/6147/616x353/assassin-s-creed-valhalla-pc-juego-ubisoft-connect-europe-cover.jpg?v=1650550345",
+        "gender": "Acción, Aventura",
+        "description": "Assassin's Creed Valhalla para PC es la duodécima entrega de los juegos de Assassin's Creed, y este tiene lugar en el siglo IX (comenzando en 873 d.C.) llevándote por Europa mientras mueves tu clan desde una Noruega gravemente superpoblada y devastada por la guerra a Inglaterra, tierra verde de paz, prosperidad y campos fértiles para cultivar. Reino Unido puede tener la reputación de ser un lugar frío y lluvioso, pero en comparación con la desolación casi ártica, no es un sustituto tan malo.",
+        "price": "60",
+        "ranking": "8",
+        "downloads": "50"
+    },
+    {
+        "id": 15,
+        "name": "RDR 2",
+        "image": "https://s1.gaming-cdn.com/images/products/5679/616x353/red-dead-redemption-2-pc-juego-rockstar-cover.jpg?v=1647026658",
+        "gender": "Acción, Aventura",
+        "description": "Red Dead Redemption 2 para PC es un juego de acción y aventuras de mundo abierto en el que el jugador puede vagar libremente. Cuenta algunos elementos en tercera persona, además de otras modalidades de juego en primera persona.",
+        "price": "60",
+        "ranking": "10",
+        "downloads": "70"
+    },
+    {
+        "id": 16,
+        "name": "DayZ",
+        "image": "https://s1.gaming-cdn.com/images/products/3393/616x353/dayz-pc-juego-steam-europe-cover.jpg?v=1649409647",
+        "gender": "Acción, Aventura",
+        "description": "Day Z para PC es un juego de horror y supervivencia en el que el jugador deberá hacer frente al estallido de un apocalipsis zombi. Está ambientado en el estado post-soviético ficticio de Chernarus, donde el brote de un virus ha contagiado a la mayor parte de la población. Puede jugarse en primera y en tercera persona.",
+        "price": "40",
+        "ranking": "8",
+        "downloads": "10"
+    },
+    {
+        "id": 17,
+        "name": "Watch Dogs 2",
+        "image": "https://s1.gaming-cdn.com/images/products/1365/616x353/watch-dogs-2-pc-juego-ubisoft-connect-europe-cover.jpg?v=1644761005",
+        "gender": "Acción, Aventura",
+        "description": "Watch Dogs 2 para PC es la secuela del primer juego de la serie basada en el combate y el sigilo, la cual contará con una tercera entrega en un futuro cercano. Se trata de un juego de acción y aventuras en tercera persona, ambientado en un entorno de mundo abierto.",
+        "price": "60",
+        "ranking": "9",
+        "downloads": "70"
+    },
+    {
+        "id": 18,
+        "name": "Forspoken",
+        "image": "https://s2.gaming-cdn.com/images/products/7111/616x353/forspoken-pc-juego-steam-europe-cover.jpg?v=1674831248",
+        "gender": "Acción, Aventura",
+        "description": "No se sabe cómo, Frey Holland ha viajado desde la ciudad de Nueva York hasta el impresionante mundo de Athia, del que no puede salir. Con un brazalete parlante que aparece de forma inexplicable en su muñeca, Frey descubre que puede lanzar poderosos hechizos y usar magia para recorrer los vastos paisajes de Athia. Frey apoda a su nuevo amigo metálico «Cepo» y se dispone a encontrar el camino de vuelta a casa.",
+        "price": "80",
+        "ranking": "6",
+        "downloads": "10"
+    },
+    {
+        "id": 19,
+        "name": "WWE 2K22",
+        "image": "https://s3.gaming-cdn.com/images/products/8633/616x353/wwe-2k22-pc-juego-steam-europe-cover.jpg?v=1652778260",
+        "gender": "Deporte",
+        "description": "Te toca tener el control como mánager de la WWE. Toma las riendas de Raw, SmackDown, NXT o NXT UK y forma un roster insuperable de Superstars y leyendas de la WWE para enfrentarte a otros GM y crear la mejor marca del Universo WWE.",
+        "price": "60",
+        "ranking": "7",
+        "downloads": "20"
+    },
+    {
+        "id": 20,
+        "name": "Rust",
+        "image": "https://s1.gaming-cdn.com/images/products/1230/616x353/juego-steam-rust-cover.jpg?v=1619430452",
+        "gender": "Acción, Aventura",
+        "description": "Rust para PC es un juego de supervivencia online exclusivamente multijugador.. Puede ser difícil para un principiante superar las primeras etapas del juego después de iniciarse, porque no solo es el PvE habitual que se puede esperar de un juego de supervivencia, sino que es simultáneamente PvP.",
+        "price": "39.42",
+        "ranking": "9",
+        "downloads": "70"
+    }
+
+]

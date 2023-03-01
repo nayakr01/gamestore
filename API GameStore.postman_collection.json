@@ -1,0 +1,511 @@
+{
+	"info": {
+		"_postman_id": "c2ad7059-f87d-4d57-93e0-d279898053a4",
+		"name": "API GameStore",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Games",
+			"item": [
+				{
+					"name": "Read Games",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/api/games",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"games"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Read Game",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/api/games/details/2",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"games",
+								"details",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Read Game (ERROR)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/api/games/details/26",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"games",
+								"details",
+								"26"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Game",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"F1 Manager 2022\",\r\n    \"image\": \"https://s2.gaming-cdn.com/images/products/10570/616x353/f1-manager-2022-pc-juego-steam-europe-cover.jpg?v=1663335473\",\r\n    \"gender\": \"Simulación\",\r\n    \"description\": \"F1 Manager para PC es el juego oficial de simulación de carreras de los campeonatos reales de Fórmula 1, 2 y 3. Eres un directivo, a cargo tanto del desarrollo del coche, como de la moral y la preparación del equipo para las carreras.\",\r\n    \"price\": \"55\",\r\n    \"ranking\": \"9\",\r\n    \"downloads\": \"60\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/api/games",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"games"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Game (ERROR)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"F1 Manager 2022\",\r\n    \"image\": \"https://s2.gaming-cdn.com/images/products/10570/616x353/f1-manager-2022-pc-juego-steam-europe-cover.jpg?v=1663335473\",\r\n    \"gender\": \"Simulación\",\r\n    \"description\": \"F1 Manager para PC es el juego oficial de simulación de carreras de los campeonatos reales de Fórmula 1, 2 y 3. Eres un directivo, a cargo tanto del desarrollo del coche, como de la moral y la preparación del equipo para las carreras.\",\r\n    \"ranking\": \"9\",\r\n    \"downloads\": \"60\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/api/games",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"games"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Modify Game",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Black Ops 4\",\r\n    \"image\": \"https://s3.gaming-cdn.com/images/products/2468/616x353/call-of-duty-black-ops-4-pc-juego-battle-net-europe-cover.jpg?v=1649845811\",\r\n    \"gender\": \"Acción, Aventura\",\r\n    \"description\": \"Call of Duty: Black Ops 4 (Europa) para PC es un shooter multijugador en primera persona, el quinto de la serie Black Ops que forma parte de los populares juegos de Call of Duty, de los cuales este es el décimo quinto lanzamiento.\",\r\n    \"price\": \"50.99\",\r\n    \"ranking\": \"7\",\r\n    \"downloads\": \"10\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/games/7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"games",
+								"7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Modify Game (ERROR)",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Black Ops 4\",\r\n    \"image\": \"https://s3.gaming-cdn.com/images/products/2468/616x353/call-of-duty-black-ops-4-pc-juego-battle-net-europe-cover.jpg?v=1649845811\",\r\n    \"gender\": \"Acción, Aventura\",\r\n    \"description\": \"Call of Duty: Black Ops 4 (Europa) para PC es un shooter multijugador en primera persona, el quinto de la serie Black Ops que forma parte de los populares juegos de Call of Duty, de los cuales este es el décimo quinto lanzamiento.\",\r\n    \"price\": \"50.99\",\r\n    \"ranking\": \"7\",\r\n    \"downloads\": \"10\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/games/28",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"games",
+								"28"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Modify Game (ERROR 2)",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Black Ops 4\",\r\n    \"image\": \"https://s3.gaming-cdn.com/images/products/2468/616x353/call-of-duty-black-ops-4-pc-juego-battle-net-europe-cover.jpg?v=1649845811\",\r\n    \"gender\": \"Acción, Aventura\",\r\n    \"description\": \"Call of Duty: Black Ops 4 (Europa) para PC es un shooter multijugador en primera persona, el quinto de la serie Black Ops que forma parte de los populares juegos de Call of Duty, de los cuales este es el décimo quinto lanzamiento.\",\r\n    \"price\": \"50.99\",\r\n    \"ranking\": \"7\",\r\n    \"descargas\": \"10\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/games/7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"games",
+								"7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Game",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/api/games/20",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"games",
+								"20"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Game (ERROR)",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/api/games/50",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"games",
+								"50"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "Read Users",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/api/users",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Read User",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/api/users/2",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"users",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Read User (ERROR)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/api/users/26",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"users",
+								"26"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create User",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"user\": \"pedroA\",\r\n    \"name\": \"Pedro Arrocha\",\r\n    \"password\": \"abcd1234\",\r\n    \"image\": \"https://i.imgur.com/92tBmbR.png\",\r\n    \"rol\": \"Usuario\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/api/users",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create User (ERROR)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"user\": \"pedroA\",\r\n    \"name\": \"Pedro Arrocha\",\r\n    \"password\": \"abcd1234\",\r\n    \"imagen\": \"https://i.imgur.com/92tBmbR.png\",\r\n    \"rol\": \"Usuario\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/api/users",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Modify User",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"user\": \"diegoG\",\r\n    \"name\": \"Diego Gallardo\",\r\n    \"password\": \"abcd\",\r\n    \"image\": \"https://i.imgur.com/92tBmbR.png\",\r\n    \"rol\": \"Usuario\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/users/7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"users",
+								"7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Modify User (ERROR)",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"user\": \"juliaM\",\r\n    \"name\": \"Julia Medina\",\r\n    \"password\": \"2023\",\r\n    \"image\": \"https://i.imgur.com/hMVglT7.png\",\r\n    \"rol\": \"Usuario\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/users/28",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"users",
+								"28"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Modify User (ERROR 2)",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"user\": \"marinaS\",\r\n    \"name\": \"Marina Sanchez\",\r\n    \"password\": \"qwerty\",\r\n    \"imagen\": \"https://i.imgur.com/M0quzRa.png\",\r\n    \"rol\": \"Administrador\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/games/7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"games",
+								"7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete User",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/api/users/2",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"users",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete User (ERROR)",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/api/users/20",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"users",
+								"20"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

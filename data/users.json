@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "user": "rafaelG",
+        "name": "Rafael Gomez",
+        "password": "1234",
+        "image": "https://i.imgur.com/iI8ufM5.png",
+        "rol": "Usuario"
+    },
+    {
+        "id": 2,
+        "user": "diegoG",
+        "name": "Diego Gallardo",
+        "password": "abcd",
+        "image": "https://i.imgur.com/92tBmbR.png",
+        "rol": "Administrador"
+    },
+    {
+        "id": 3,
+        "user": "juliaM",
+        "name": "Julia Medina",
+        "password": "2023",
+        "image": "https://i.imgur.com/hMVglT7.png",
+        "rol": "Usuario"
+    },
+    {
+        "id": 4,
+        "user": "marinaS",
+        "name": "Marina Sanchez",
+        "password": "qwerty",
+        "image": "https://i.imgur.com/M0quzRa.png",
+        "rol": "Administrador"
+    },
+    {
+        "id": 5,
+        "user": "ricardoM",
+        "name": "Ricardo Muñoz",
+        "password": "09876",
+        "image": "https://i.imgur.com/3mmLHk8.png",
+        "rol": "Usuario"
+    },
+    {
+        "id": 6,
+        "user": "nataliaR",
+        "name": "Natalia Ramos",
+        "password": "123abcd",
+        "image": "https://i.imgur.com/znLjtUo.png",
+        "rol": "Administrador"
+    }
+]
